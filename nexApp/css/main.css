@@ -170,6 +170,8 @@ p {
     border-bottom: 1px solid grey; }
     .dasboard .announcement .announcement-heading h3, .dasboard .announcement .announcement-heading .detail {
       color: #0288d1; }
+  .dasboard .announcement i.fa-eye {
+    margin-right: 0; }
   .dasboard .announcement h5 {
     text-transform: uppercase; }
   .dasboard .announcement .views {
