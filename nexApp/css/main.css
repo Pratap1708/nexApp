@@ -50,18 +50,21 @@ p {
   background: #03a9f4;
   color: #fff; }
   .dasboard .nav-container a, .dasboard .nav-container p {
-    color: #fff; }
+    color: #fff;
+    vertical-align: text-bottom; }
   .dasboard .nav-container .nav-list {
     padding-left: 0;
     margin-top: 20px; }
     .dasboard .nav-container .nav-list li {
-      padding: 20px; }
+      padding: 20px 35px; }
   .dasboard .nav-container li.active {
     background: #0288d1;
     border-left: 4px solid #ffc107; }
   .dasboard .nav-container .profile-detail {
     text-align: center;
     padding-top: 20px; }
+    .dasboard .nav-container .profile-detail i.fa {
+      margin-right: 5px; }
   .dasboard .nav-container .career-role {
     padding: 5px 10px;
     border: 2px solid #fff;
@@ -106,7 +109,7 @@ p {
     border-bottom: 1px solid grey; }
 
 .dasboard i.fa {
-  margin-right: 10px; }
+  margin-right: 20px; }
 
 .dasboard .image-container {
   padding-top: 10px; }
