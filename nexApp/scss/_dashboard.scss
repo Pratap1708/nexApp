@@ -1,0 +1,204 @@
+.dasboard {
+	.nav-container {
+		background: #03a9f4;
+		color: #fff;
+		a, p {
+				color: #fff;
+			}
+		.nav-list {
+			padding-left: 0;
+			margin-top: 20px;
+			li {
+				padding: 20px;
+			}
+		}
+		li.active {
+			background: #0288d1;
+			border-left: 4px solid #ffc107;
+		}
+		.profile-detail {
+			text-align: center;
+			padding-top: 20px;
+		}
+		.career-role {
+			padding: 5px 10px;
+	    	border: 2px solid #fff;
+	    	border-radius: 40px;
+		}
+		.nav-footer {
+			position: absolute;
+			bottom: 10px;
+			a {
+				color: #fff;
+			}
+		}
+	}
+	header {
+		background: #0288d1;
+		min-height: 50px;
+		margin-bottom: 40px;
+		a {
+			color: #fff;
+		}
+		.menu {
+			padding: 15px 0;
+		    font-size: 20px;
+		}
+		img {
+			padding: 10px;
+		}
+	}
+	.fa-plus {
+		position: absolute;
+	    right: 5%;
+	    color: #fff;
+	    padding: 6px;
+	    background: #ffc107;
+	    border-radius: 15px;
+	    top: 59px;
+	}
+	.heading {
+		background: #03a9f4;
+		padding-left: 15px;
+	}
+	.wrapper {
+		border: 1px solid grey;
+		h4 {
+			margin-top: 0;
+			padding-top: 20px;
+		}
+		li {
+			border-bottom: 1px solid grey;
+		}
+	}
+	i.fa {
+		margin-right: 10px;
+	}
+	.image-container {
+		padding-top: 10px;
+		&:before {
+			content: ' ';
+			display: block;
+			width: 7px;
+			height: 7px;
+			left: 18px;
+			top: 15px;
+			border-radius: 7px;
+			background: #cddc39;
+			position: absolute;
+		}
+	}
+	.online:before  {
+		background: #f4511e;
+	}
+	.message-container, .course-container {
+		ul li {
+			height: 70px;
+		}
+		p {
+			margin: 0
+		}
+		h5 {
+			margin-bottom: 0;
+		}
+	}
+	.message-container {
+		ul li.active {
+			border-left: 3px solid #ef5350;
+		}
+	}
+	.course-container {
+		.graph-container {
+			position: relative;
+    		height: 40px;
+    		.graph {
+				position: absolute;
+			    left: 0;
+			    right: 0;
+			    width: 100%;
+			    bottom: -20px;
+			}
+			.graph.normal-70 {
+				background: #26c6da;
+				height: 70%;
+			}
+			.graph.normal-50 {
+				background: #26c6da;
+				height: 50%;
+			}
+			.graph.high-100 {
+				background: #ffc107;
+				height: 90%;
+			}
+			.graph.low-20 {
+				background: #ef5350;
+				height: 20%;
+			}
+		}
+		span {
+			display: block;
+		}
+	}
+	.announcement {
+		margin-bottom: 40px;
+		.announcement-heading {
+			border-bottom: 1px solid grey;
+			h3, .detail {
+				color: #0288d1;
+			}
+		}
+		h5 {
+			text-transform: uppercase;
+		}
+		.views {
+			text-align: center;
+		}
+		.announcement-container {
+			height: 225px;
+	    	overflow: scroll;
+	    	ul {
+	    		padding-left: 0;
+	    	}
+	    	li:nth-child(even) {
+	    		border-left: 4px solid #0288d1;
+	    	}
+	    	li:nth-child(odd) {
+	    		border-left: 4px solid #ffc107;
+	    	}
+		}
+		.designation {
+			padding-top: 20px;
+			color: #727272;
+			.principal {
+				border-left: 4px solid #0288d1;
+			}
+			.teacher {
+				border-left: 4px solid #ffc107;
+			}
+		}
+		i.fa {
+			color: #727272;
+		}
+		.announcement-no-left-padding {
+			padding-right: 0;
+		}
+	}
+	.schedule-wrapper {
+		.schedule {
+			margin-bottom: 63px;
+			border: 1px solid grey;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+		.days {
+			text-align: center;
+			div {
+				width: 25px;
+				color: #fff;
+				margin-bottom: 2px;
+				background: #0288d1;
+			}
+		}
+	}
+}

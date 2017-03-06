@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html> <!-- ng-app is Directive -->
+<head>
+  <title>NexApp | Dashboard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <script type="text/javascript">
+
+
+  </script>
+</head>
+<body class="container-fluid">
+  <div class="row dasboard">
+	 <!-- this is not read -->
+  <aside class="nav-container col-lg-3">
+    <div class="profile-detail">
+      <img src="./assests/name.png">
+      <h3>Alex Shaw</h3>
+      <p class="address"><i class="fa fa-map-marker" aria-hidden="true"></i> HO Chi Minh City, Vietnam</p>
+      <span class="career-role">Student</span>
+    </div>
+    <ul class="row nav-list">
+      <li class="active"><i class="fa fa-home" aria-hidden="true"></i><a href="#">Dashboard</a></li>
+      <li class=""><i class="fa fa-calendar-o" aria-hidden="true"></i><a href="#">Calendar</a></li>
+      <li class=""><i class="fa fa-exclamation-circle" aria-hidden="true"></i><a href="#">Announcement</a></li>
+      <li class=""><i class="fa fa-file-text" aria-hidden="true"></i><a href="#">Courses</a></li>
+      <li class=""><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">Message</a></li>
+      <li class=""><i class="fa fa-clone" aria-hidden="true"></i><a href="#">Forum</a></li>
+    </ul>
+    <ul class="nav-footer col-lg-12">
+      <li class="col-lg-6"><a href="#" aria-label="settings"><i class="fa fa-cog fa-2x" aria-hidden="true"></i></a></li>
+      <li class="col-lg-6"><a class="pull-right" href="#" aria-label="logout"><i class="fa fa-power-off fa-2x" aria-hidden="true"></i></a></li>
+    </ul>
+
+    <div class=""></div>
+  </aside>
+   <main class="col-lg-9">
+    <div class="row">
+      <header class="col-lg-12">
+        <div class="col-lg-6 menu">
+          <a href="#" class="toggle-nav">
+            <i class="fa fa-bars" aria-hidden="true"></i>Dashboard
+          </a>
+        </div>
+        <div class="logo-container col-lg-6">
+          <img class="pull-right" src="./assests/logo.png">
+        </div>
+      </header>
+      <section class="announcement col-lg-8">
+      <div class="col-lg-12 announcement-no-left-padding">
+        <div class="wrapper clearfix">
+          <div class="announcement-heading clearfix">
+            <div class="col-lg-8">
+              <h3>Announcement</h3>
+              <p class="detail">From your Principal or Teachers</p>
+            </div>
+            <div class="designation col-lg-4">
+              <div class="principal col-lg-6">Principal</div>
+              <div class="teacher col-lg-6">Teacher</div>
+            </div>
+          </div>
+         <div class="announcement-container col-lg-12">
+           <ul class="row">
+             <li class="clearfix">
+             <div class="col-lg-12">
+              <div class="views col-lg-2">
+              <p class="watch-count">11111</p>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              </div>
+              <div class="col-lg-10"><h5>Merry Chirstmas Everyone</h5>
+              <p>Thank you everyone for all your support</p>
+              </div>
+              </div>
+             </li>
+             <li class="clearfix">
+             <div class="col-lg-12">
+              <div class="views col-lg-2">
+              <p class="watch-count">11111</p>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              </div>
+              <div class="col-lg-10"><h5>History of Earth Science Assignment Detail</h5>
+              <p>Thank you everyone for all your support</p>
+              </div>
+              </div>
+             </li>
+             <li class="clearfix">
+             <div class="col-lg-12">
+              <div class="views col-lg-2">
+              <p class="watch-count">11111</p>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              </div>
+              <div class="col-lg-10"><h5>Introduction to Geography Test will be Moved to 27 Nov</h5>
+              <p>Thank you everyone for all your support</p>
+              </div>
+              </div>
+             </li>
+             <li class="clearfix">
+             <div class="col-lg-12">
+              <div class="views col-lg-2">
+              <p class="watch-count">11111</p>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              </div>
+              <div class="col-lg-10"><h5>Merry Chirstmas Everyone</h5>
+              <p>Thank you everyone for all your support</p>
+              </div>
+              </div>
+             </li>
+             <li class="clearfix">
+             <div class="col-lg-12">
+              <div class="views col-lg-2">
+              <p class="watch-count">11111</p>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              </div>
+              <div class="col-lg-10"><h5>Merry Chirstmas Everyone</h5>
+              <p>Thank you everyone for all your support</p>
+              </div>
+              </div>
+             </li>
+             <li class="clearfix">
+             <div class="col-lg-12">
+              <div class="views col-lg-2">
+              <p class="watch-count">11111</p>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              </div>
+              <div class="col-lg-10"><h4>Merry Chirstmas Everyone</h4>
+              <p>Thank you everyone for all your support</p>
+              </div>
+              </div>
+             </li>
+           </ul>
+         </div>
+        </div>
+        </div>
+       </section>
+      <section class="calander-container col-lg-4">
+        <div class="row">
+          <div class="select-box col-lg-12">
+            <label class="sr-only">Select Month</label>
+            <select id="month">
+              <option selected>March</option>
+            </select>
+          </div>
+           <i class="fa fa-plus" aria-hidden="true"></i>
+          <table class="col-lg-12">
+            <tr>
+              <th>S</th>
+              <th>M</th>
+              <th>T</th>
+              <th>W</th>
+              <th>Th</th>
+              <th>F</th>
+              <th>S</th>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td class="selected">17</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td class="disabled">29</td>
+              <td>30</td>
+              <td>31</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    <div class="col-lg-8">
+      <div class="row clearfix">
+        <section class="message-container col-lg-6">
+         <div class="wrapper clearfix">
+          <div class="heading">
+            <h4>Messages</h4>
+            <p>Current Conversations</p>
+          </div>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          <ul>
+            <li class="clearfix active">
+              <div class="col-lg-3">
+                <div class="image-container">
+                   <img src="./assests/name4.png">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="row">
+                  <h5>Mr. Sheldon Cooper</h5>
+                  <p class="comment">What is wrong with you?</p>
+                  <p class="time small">Just Now</p>
+                </div>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="col-lg-3">
+                <div class="image-container online">
+                   <img src="./assests/name3.png">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="row">
+                  <h5>Jason Bourne</h5>
+                  <p class="comment">Hey dude! What's the plan?</p>
+                  <p class="time small"> 1 hour ago</p>
+                </div>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="col-lg-3">
+                <div class="image-container">
+                   <img src="./assests/name2.png">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="row">
+                  <h5>Mr. Barney Stinson</h5>
+                  <p class="comment">Have you tried my formula?</p>
+                  <p class="time small">1 day ago</p>
+                </div>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="col-lg-3">
+                <div class="image-container">
+                   <img src="./assests/name1.png">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="row">
+                  <h5>Jesse Pinkman</h5>
+                  <p class="comment"> I finished it 2 days ago</p>
+                  <p class="time small">1 day ago</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          </div>
+         </section>
+        <section class="course-container col-lg-6">
+          <div class="wrapper clearfix">
+            <div class="heading">
+            <h4>Courses</h4>
+            <p>Your Current Courses And Processes</p>
+            </div>
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            <ul>
+            <li class="clearfix">
+              <div class="col-lg-3">
+                <div class="graph-container">
+                  <span>100%</span>
+                  <div class="graph high-100"></div>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h5>History of Earth</h5>
+                <p class="comment">Teacher: Mr. Jason Bourne</p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="col-lg-3">
+                <div class="graph-container">
+                  <span>70%</span>
+                  <div class="graph normal-70"></div>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h5>Introduction to Geography</h5>
+                <p class="comment">Teacher: Mr. Barney Stinson</p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="col-lg-3">
+                <div class="graph-container">
+                  <span>50%</span>
+                  <div class="graph normal-50"></div>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h5>Math Formative Assesment</h5>
+                <p class="comment">Ms. Charlie Theron</p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="col-lg-3">
+                <div class="graph-container">
+                  <span>20%</span>
+                  <div class="graph low-20"></div>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h5>The Special Theory of Relativity</h5>
+                <p class="comment">Teacher: Mr. Matt Damon</p>
+              </div>
+            </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="schedule-wrapper">
+      <div class="schedule clearfix">
+        <div class="col-lg-2">
+          <div class="days row">
+            <div>11</div>
+            <div>14</div>
+          </div>
+        </div>
+          <div class="col-lg-10">
+            <div class="row">
+              <h5>History of the Earth Assignment</h5>
+              <span class="time small">09h30'</span>
+            </div>
+          </div>
+      </div>
+      <div class="schedule clearfix">
+        <div class="col-lg-2">
+          <div class="days row">
+            <div>11</div>
+            <div>27</div>
+          </div>
+        </div>
+        <div class="col-lg-10">
+          <div class="row">
+            <h5>History of the Earth Assignment</h5>
+            <span class="time small">09h30'</span>
+            <h5>Math Formative Assessment Test</h5>
+            <span class="time small">14h30'</span>
+          </div>
+        </div>
+      </div>
+      <div class="schedule clearfix">
+        <div class="col-lg-2">
+          <div class="days row">
+            <div>11</div>
+            <div>29</div>
+          </div>
+        </div>
+        <div class="col-lg-10">
+          <div class="row">
+            <h5>History of the Earth Assignment</h5>
+            <span class="time small">15h45'</span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

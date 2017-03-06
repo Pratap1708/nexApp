@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box; }
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0; }
+  ul li {
+    list-style: none; }
+  ul .watch-count {
+    margin-top: 10px; }
+
+p {
+  color: #727272;
+  margin: 5px 0; }
+
+.container-fluid {
+  max-width: 1280px;
+  background: #fafafa; }
+
+.calander-container {
+  border: 1px solid grey; }
+  .calander-container .select-box {
+    padding: 20px 0; }
+  .calander-container .fa-plus {
+    top: -14px; }
+  .calander-container select {
+    font-size: 15px;
+    background: #fff;
+    border: none; }
+  .calander-container table {
+    background: #fff;
+    border-collapse: collapse;
+    color: #222;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    width: 100%; }
+  .calander-container th, .calander-container td {
+    color: #000;
+    cursor: pointer;
+    text-align: center; }
+  .calander-container td {
+    border-radius: 40px;
+    line-height: 46px; }
+  .calander-container .selected {
+    background: #03a9f4; }
+  .calander-container .disabled {
+    background: #d6d6d6; }
+
+.dasboard .nav-container {
+  background: #03a9f4;
+  color: #fff; }
+  .dasboard .nav-container a, .dasboard .nav-container p {
+    color: #fff; }
+  .dasboard .nav-container .nav-list {
+    padding-left: 0;
+    margin-top: 20px; }
+    .dasboard .nav-container .nav-list li {
+      padding: 20px; }
+  .dasboard .nav-container li.active {
+    background: #0288d1;
+    border-left: 4px solid #ffc107; }
+  .dasboard .nav-container .profile-detail {
+    text-align: center;
+    padding-top: 20px; }
+  .dasboard .nav-container .career-role {
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 40px; }
+  .dasboard .nav-container .nav-footer {
+    position: absolute;
+    bottom: 10px; }
+    .dasboard .nav-container .nav-footer a {
+      color: #fff; }
+
+.dasboard header {
+  background: #0288d1;
+  min-height: 50px;
+  margin-bottom: 40px; }
+  .dasboard header a {
+    color: #fff; }
+  .dasboard header .menu {
+    padding: 15px 0;
+    font-size: 20px; }
+  .dasboard header img {
+    padding: 10px; }
+
+.dasboard .fa-plus {
+  position: absolute;
+  right: 5%;
+  color: #fff;
+  padding: 6px;
+  background: #ffc107;
+  border-radius: 15px;
+  top: 59px; }
+
+.dasboard .heading {
+  background: #03a9f4;
+  padding-left: 15px; }
+
+.dasboard .wrapper {
+  border: 1px solid grey; }
+  .dasboard .wrapper h4 {
+    margin-top: 0;
+    padding-top: 20px; }
+  .dasboard .wrapper li {
+    border-bottom: 1px solid grey; }
+
+.dasboard i.fa {
+  margin-right: 10px; }
+
+.dasboard .image-container {
+  padding-top: 10px; }
+  .dasboard .image-container:before {
+    content: ' ';
+    display: block;
+    width: 7px;
+    height: 7px;
+    left: 18px;
+    top: 15px;
+    border-radius: 7px;
+    background: #cddc39;
+    position: absolute; }
+
+.dasboard .online:before {
+  background: #f4511e; }
+
+.dasboard .message-container ul li, .dasboard .course-container ul li {
+  height: 70px; }
+
+.dasboard .message-container p, .dasboard .course-container p {
+  margin: 0; }
+
+.dasboard .message-container h5, .dasboard .course-container h5 {
+  margin-bottom: 0; }
+
+.dasboard .message-container ul li.active {
+  border-left: 3px solid #ef5350; }
+
+.dasboard .course-container .graph-container {
+  position: relative;
+  height: 40px; }
+  .dasboard .course-container .graph-container .graph {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: -20px; }
+  .dasboard .course-container .graph-container .graph.normal-70 {
+    background: #26c6da;
+    height: 70%; }
+  .dasboard .course-container .graph-container .graph.normal-50 {
+    background: #26c6da;
+    height: 50%; }
+  .dasboard .course-container .graph-container .graph.high-100 {
+    background: #ffc107;
+    height: 90%; }
+  .dasboard .course-container .graph-container .graph.low-20 {
+    background: #ef5350;
+    height: 20%; }
+
+.dasboard .course-container span {
+  display: block; }
+
+.dasboard .announcement {
+  margin-bottom: 40px; }
+  .dasboard .announcement .announcement-heading {
+    border-bottom: 1px solid grey; }
+    .dasboard .announcement .announcement-heading h3, .dasboard .announcement .announcement-heading .detail {
+      color: #0288d1; }
+  .dasboard .announcement h5 {
+    text-transform: uppercase; }
+  .dasboard .announcement .views {
+    text-align: center; }
+  .dasboard .announcement .announcement-container {
+    height: 225px;
+    overflow: scroll; }
+    .dasboard .announcement .announcement-container ul {
+      padding-left: 0; }
+    .dasboard .announcement .announcement-container li:nth-child(even) {
+      border-left: 4px solid #0288d1; }
+    .dasboard .announcement .announcement-container li:nth-child(odd) {
+      border-left: 4px solid #ffc107; }
+  .dasboard .announcement .designation {
+    padding-top: 20px;
+    color: #727272; }
+    .dasboard .announcement .designation .principal {
+      border-left: 4px solid #0288d1; }
+    .dasboard .announcement .designation .teacher {
+      border-left: 4px solid #ffc107; }
+  .dasboard .announcement i.fa {
+    color: #727272; }
+  .dasboard .announcement .announcement-no-left-padding {
+    padding-right: 0; }
+
+.dasboard .schedule-wrapper .schedule {
+  margin-bottom: 63px;
+  border: 1px solid grey; }
+  .dasboard .schedule-wrapper .schedule:last-of-type {
+    margin-bottom: 0; }
+
+.dasboard .schedule-wrapper .days {
+  text-align: center; }
+  .dasboard .schedule-wrapper .days div {
+    width: 25px;
+    color: #fff;
+    margin-bottom: 2px;
+    background: #0288d1; }

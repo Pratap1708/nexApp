@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+ul {
+	padding-left: 0;
+	margin-bottom: 0;
+	li {
+		list-style: none;
+	}
+	.watch-count {
+		margin-top: 10px;
+	}
+}
+p {
+	color: #727272;
+	margin: 5px 0;
+}
+.container-fluid {
+	max-width: 1280px;
+	background: #fafafa;
+}
