@@ -203,5 +203,13 @@ p {
   .dasboard .schedule-wrapper .days div {
     width: 25px;
     color: #fff;
-    margin-bottom: 2px;
-    background: #0288d1; }
+    margin-bottom: 2px; }
+
+.dasboard .schedule-wrapper .days.assignment-1 div {
+  background: #03a9f4; }
+
+.dasboard .schedule-wrapper .days.assignment-2 div {
+  background: #ffc107; }
+
+.dasboard .schedule-wrapper .days.assignment-3 div {
+  background: #26c6da; }
